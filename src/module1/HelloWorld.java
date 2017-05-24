@@ -23,10 +23,10 @@ public class HelloWorld extends PApplet
 	private static final long serialVersionUID = 1L;
 
 	/** This is where to find the local tiles, for working without an Internet connection */
-	public static String mbTilesString = "blankLight-1-3.mbtiles";
+	public static String mbTilesString = "/data/blankLight-1-3.mbtiles";
 	
 	// IF YOU ARE WORKING OFFLINE: Change the value of this variable to true
-	private static final boolean offline = false;
+	private static final boolean offline = true;
 	
 	/** The map we use to display our home town: La Jolla, CA */
 	UnfoldingMap map1;
